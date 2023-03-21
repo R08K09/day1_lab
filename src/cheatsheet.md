@@ -1,4 +1,4 @@
-## Terminal cheatsheet for reference
+## Terminal and GitHub Cheatsheet
 
 ### Terminal Commands
 
