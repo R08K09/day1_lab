@@ -94,18 +94,15 @@
 2. Except now, type `git push` as we do not need to paste the code block again
 
 
+### Handy Terminal shortcuts to save time
 
-#### Handy Terminal shortcuts to save time
-
-> 1. Use tab key to autocomplete names rather than typing out the whole thing
->    * Start typing cd (name initial) and press the tab key. 
->    * A list of possible docs/folders should appear, then select the correct one
->
-> 2. Use the up and down keys to show previous commands in the terminal. It can save some time.
+1. Use tab key to autocomplete names rather than typing out the whole thing
+   * Start typing cd (name initial) and press the tab key. 
+   * A list of possible docs/folders should appear, then select the correct one
+2. Use the up and down keys to show previous commands in the terminal. It can save some time.
 
 
-
-#### Markdown style tips
+### Markdown style tips
 
 The amount of (#) affect the heading size, the less #'s the bigger the text size.
 
@@ -115,6 +112,8 @@ For *italicize* _text_, use just 1 * or _ on either side of the word or phrase.
 
 To do both ***bold*** and ___italics___, use three * or _ in any combination on either side of the word or phrase,
 e.g. *** or ___ or (__*) or (**_)
+
+If you want to emphazise something, you can use `backticks`
 
 > Note: This will appear differently
 >> And this is a nested blockquote
@@ -129,5 +128,4 @@ We can have ordered and unordered lists
 * C
   + and this one is indented
 
-If you want to emphazise something, you can use `backticks` 
 
