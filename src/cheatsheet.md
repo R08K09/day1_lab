@@ -3,7 +3,7 @@
 ### Terminal Commands
 
 * `pwd` - prints the name of the working directory
-* `cd` - change directory
+* `cd` - changes directory
   * `cd ..` - moves back up to the previous directory
   * `cd (name)` - moves down into (name) folder
   >  * . (Single Period) - Current directory
@@ -14,8 +14,8 @@
     * mkdir bnta_work
     * mkdir bnta_work/week_01
     * mkdir bnta_work/week_01/day_1
-* `touch` - create new empty files
-* `mv` - move files
+* `touch` - creates new empty files
+* `mv` - moves files
 * `rm` - removes folder/file completely (be cautious!)
   * `rmdir` - removes directory but only if empty
   * `rm -r` deletes a directory and all of its child directories
@@ -23,8 +23,8 @@
   * `ls -a` - does the same as `ls` but includes hidden files and directories
   * `ls -t` orders files and directories by the time they were last modified.
 * `open` - opens the current folder or file in finder
-* `q` - quit sub-screen and return to terminal
-* `clear` - clear terminal screen of all previous commands, so it's blank
+* `q` - quits sub-screen and return to terminal
+* `clear` - clears terminal screen of all previous commands, so it's blank
 
 
 ### Git Commands
@@ -36,7 +36,8 @@
 * `git log` - displays snapshots of the project's committed history
 * `git push` - sends the committed changes to remote repositories
 
-#### Simplified steps
+#### Simplified steps using git commands
+
 1. `git init` to initialise empty Git repository in current directory
 2. `git add (file)` to add untracked file, so it's ready to be committed
 3. `git commit -m"adds (message)"` to commit tracked file
@@ -44,9 +45,8 @@
 5. Create the repository in gitHub.com (steps explained below)
 6. Paste the code block into the terminal and run it
 7. If we make another change that requires another commit:
-   * `git add` and `git commit -m"(some message)"` to commit the change
+   * `git add (file)` and `git commit -m"(some message)"` to commit the change
    * `git push` to update the changes in gitHub
-
 
 #### Class Example
 #### Create the git repository and file
@@ -70,11 +70,11 @@
 2. Open our `file` in TextEdit and modify it by adding a sentence
 3. If we check `git status`, we will be informed that the file has been modified but change has not been committed
 4. Same as before, `git add .` to add all changes to git
-5. Status shows that it's now ready to be committed
-6. Type git commit -m"adds penguin fact"
+5. Now `git status` shows that it's now ready to be committed
+6. Type `git commit -m"adds (message)"`
 7. `git log` will show us the updated history of this git
 
-#### Create the repository in gitHub.com (steps explained below)
+#### Create the repository in gitHub.com
 
 1. In account home, in top right corner, select the plus symbol and select new repository
 2. Type in repository name - typically same name as directory
