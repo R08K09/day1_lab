@@ -27,7 +27,7 @@
 * `clear` - clear terminal screen of all previous commands, so it's blank
 
 
-### Git Commands/Steps Example
+### Git Commands
 
 * `git status` - displays the state of the working directory and the staging area
 * `git init` - creates a new Git repository
@@ -36,6 +36,19 @@
 * `git log` - displays snapshots of the project's committed history
 * `git push` - sends the committed changes to remote repositories
 
+#### Simplified steps
+1. `git init` to initialise empty Git repository in current directory
+2. `git add (file)` to add untracked file, so it's ready to be committed
+3. `git commit -m"adds (message)"` to commit tracked file
+4. `git log` to check the history of git, press `q` to exit
+5. Create the repository in gitHub.com (steps explained below)
+6. Paste the code block into the terminal and run it
+7. If we make another change that requires another commit:
+   * `git add` and `git commit -m"(some message)"` to commit the change
+   * `git push` to update the changes in gitHub
+
+
+#### Class Example
 #### Create the git repository and file
 
 1. Enter directory you want to create a repository in
@@ -44,7 +57,7 @@
 3. Create an empty file e.g. `touch (file)`
    * can check if file was made by typing `ls` and the file should appear
 4. Recommend to use `git status` to continuously check
-5. Type `git add (file)` to add untracked file facts.txt, so it's ready to be committed
+5. Type `git add (file)` to add untracked file, so it's ready to be committed
 6. Repeat step 4 to check status
 7. Type `git commit -m"adds (file)"` to commit tracked file
    * All commits have to be accompanied by a message (typically in present tense)
